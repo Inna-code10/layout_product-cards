@@ -1,6 +1,6 @@
 .card {
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: $white-accent;
   width: 200px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
@@ -21,7 +21,6 @@
   }
 
   &__title {
-    align-self: center;
     font-family: $font-main;
     font-weight: 500;
     font-size: 12px;
@@ -47,7 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: $white-accent;
     text-transform: uppercase;
     text-decoration: none;
     font-family: $font-main;
@@ -68,10 +67,7 @@
       box-sizing: border-box;
       background-color: transparent;
       color: $blue-accent;
-      border-radius: 5px;
       border: 1px solid $blue-accent;
-      width: 166px;
-      height: 40px;
     }
   }
 
